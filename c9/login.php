@@ -33,3 +33,11 @@
     })
 </script>
 </html>
+
+
+
+// git clone https://github.com/yiibook-2020/18-demo.git   abcd
+
+// cd 18-demo
+
+// git pull
