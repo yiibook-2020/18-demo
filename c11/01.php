@@ -43,6 +43,11 @@ class Student extends Person {
     }
 
 
+    public function printName() {
+        $this->name = 'aaaa';
+    }
+
+
     private function printScore() {
         echo $this->score;
     }
@@ -59,9 +64,9 @@ class Student extends Person {
 }
 
 $s = new Student('lisi', 30, 80);
-//$s->updateName();
 
-$s->printInfo();
+$s->printName();
+var_dump($s);
 
 
 
