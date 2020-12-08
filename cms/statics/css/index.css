@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+li{list-style: none;}
+a{text-decoration: none;}
+body{
+	background: rgb(247,247,247);
+}
+#header{
+	width: 100%;
+	height: 100px;
+}
+#container{
+	width: 1350px;
+	margin: 0 auto;
+}
+/* #page{
+	width: 100%;
+	height:64.8px;
+	font: 14px arial;
+	white-space: nowrap;
+	margin-top: 3px;
+} */
+.clear{
+	clear: both;
+}

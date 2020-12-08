@@ -1,0 +1,106 @@
+@charset "utf-8";
+.card{
+	width: 1000px;
+	background: #fff;
+	margin: 0 auto;
+	float: left;
+}
+.article-a{
+	width: 900px;
+	height: 200px;
+	padding-top: 20px;
+	/* background: #F07B3F; */
+	border: 1px solid #f9ffea;
+	position: relative;
+}
+.article-a h3{
+	font-size: 18px;
+	line-height: 20px;
+	color: #121212;
+	font-family: arial;
+	margin-left: 20px;
+}
+.content p{
+	line-height: 2em;
+	text-indent: 2em;
+	font-size: 14px;
+	margin-block-start:1em;
+	margin-block-end: 2em;
+	margin-inline-start: 2px;
+	margin-inline-end: 0px;
+}
+.card-act{
+	width: 900px;
+	height: 30px;
+	/* background: #66C6BA; */
+}
+.card-act ul{
+	width: 900px;
+	height: 30px;
+	/* background: #66C6BA; */
+	margin-top: -2px;
+}
+.card-act>ul li{
+	float: left;
+	width: 225px;
+	height: 30px;
+	/* background: #fff; */
+}
+.card-act>ul a {
+	color: #333;
+    display: block;
+	/* width: 225px;
+    height: 30px;
+    line-height:30px; */
+	text-align: center;
+    border-left-style: solid;
+    border-left-width: 1px;
+	border-color: #d9d9d9;
+}
+.card-act>ul a:hover{
+	color: #f07b3f;
+}
+.recommend{
+	width: 330px;
+	float: right;
+	line-height: 1.53;
+	font-family: arial;
+}
+.recommend-info{
+	width: 450px;
+	height: 462px;
+	/* background: #1161EE; */
+}
+.title-text{
+	margin: 30px 0px 0px 50px;
+	font-size: 15px;
+	color: #000;
+}
+.hot-refresh-text{
+	display: block;
+	margin: -20px 0px 0px 345px;
+	font-size: 13px;
+}
+table{
+	display: table;
+	border-collapse: separate;
+	box-sizing: border-box;
+	text-indent: initial;
+	border-spacing: 2px;
+	border-color: grey;
+	margin: 10px 0px 0px 50px;
+	font-size: 15px;
+}
+td{
+	padding-top: 10px;
+}
+.recommend-content td span {
+	display: inline-block;
+	width: 16px;
+	height: 22px;
+	color: #9195A3;
+}
+td a:hover{
+	color: #66c6ba;
+	text-decoration: underline;
+}

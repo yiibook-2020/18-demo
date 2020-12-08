@@ -1,0 +1,84 @@
+@charset "utf-8";
+.h{
+	width: 1350px;
+	height: 100px;
+	margin: 0 auto;
+	/* background: red; */
+}
+.logo{
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+.left{
+	width: 900px;
+	background: #fff8cd;
+	height: 100px;
+	float: left;
+	/* margin-left: 200px; */
+}
+.left>ul{
+	height: 100px;
+	line-height: 100px;
+}
+.left>ul li{
+	/* width: 60px;
+	height: 50px; */
+	float: left;
+	width: 120px;
+	height: 100px;
+	text-align: center;
+	/* margin-left: 25px; */
+}
+.left>ul a{
+	color: #646464;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	width: 120px;
+	height: 100px;
+	display: block;
+}
+.left>ul a:hover{
+	background-color: #ffd57e;
+}
+.loginbar{
+	width: 300px;
+	height: 100px;
+	display: block;
+	float: left;
+	/* background: #00B7D6; */
+}
+.loginbar a.register {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	float: left;
+	background: #ffd460;
+	margin-top:32px;
+	margin-left: 45px;
+	font-size:12px;
+}
+.loginbar a.register:hover {
+	background: #f9ed69;
+}
+.loginbar a.login{
+	width: 80px;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	float: left;
+	margin-left: 30px;
+	border: 1px solid #f07b3f;	
+	margin-top: 32px;
+	font-size:12px;
+	background-color:#f07b3f;
+}
+
+.loginbar a.login:hover {
+	background: #ff5722;
+	color: #fff;
+}
